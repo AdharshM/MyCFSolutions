@@ -27,7 +27,7 @@ int main(){
         cin >> a[i];
         update(i+1);
     }
-    // Example for sum between array limits l and r (both inclusive), here l=3 and r=2;
+    // Example for sum between array limits l and r (both inclusive), here l=5 and r=2;
     cout << query(5)-query(3-1) << endl;
     return 0;
 }
